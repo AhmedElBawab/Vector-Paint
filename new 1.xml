@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_121" class="java.beans.XMLDecoder">
+ <int>2</int>
+ <object class="eg.edu.alexu.csd.oop.draw.cs23.model.Polygon" id="Polygon0">
+  <void property="color">
+   <object class="java.awt.Color">
+    <int>255</int>
+    <int>102</int>
+    <int>102</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="fillColor">
+   <object class="java.awt.Color">
+    <int>102</int>
+    <int>255</int>
+    <int>0</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="position">
+   <object class="java.awt.Point" id="Point0">
+    <void class="java.awt.Point" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point0"/>
+      <int>150</int>
+     </void>
+    </void>
+    <void class="java.awt.Point" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point0"/>
+      <int>250</int>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="properties">
+   <void method="put">
+    <string>Length</string>
+    <double>40.0</double>
+   </void>
+   <void method="put">
+    <string>Width</string>
+    <double>30.0</double>
+   </void>
+  </void>
+ </object>
+ <object class="eg.edu.alexu.csd.oop.draw.cs23.model.Elipse" id="Elipse0">
+  <void property="color">
+   <object class="java.awt.Color">
+    <int>255</int>
+    <int>255</int>
+    <int>102</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="fillColor">
+   <object class="java.awt.Color">
+    <int>255</int>
+    <int>255</int>
+    <int>0</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="position">
+   <object class="java.awt.Point" id="Point1">
+    <void class="java.awt.Point" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point1"/>
+      <int>350</int>
+     </void>
+    </void>
+    <void class="java.awt.Point" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point1"/>
+      <int>250</int>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="properties">
+   <void method="put">
+    <string>Length</string>
+    <double>40.0</double>
+   </void>
+   <void method="put">
+    <string>Width</string>
+    <double>30.0</double>
+   </void>
+  </void>
+ </object>
+</java>
